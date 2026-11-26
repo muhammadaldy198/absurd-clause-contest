@@ -13,3 +13,8 @@ mkdirSync(outDir, { recursive: true });
 const target = join(outDir, "entry.txt");
 writeFileSync(target, ENTRY, "utf8");
 chmodSync(target, 0o644);
+
+// Beat map (ai-judge-writing: 2-3 beat, twist konkret di kata terakhir):
+// 1. register legal meyakinkan ("The User agrees...");
+// 2. objek konkret + inversi (kunci rumah pengguna di bawah keset PERUSAHAAN);
+// 3. konsekuensi pengunci: pengguna yang mengganti bila PERUSAHAAN yang menghilangkan.
